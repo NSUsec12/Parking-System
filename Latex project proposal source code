@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+ 
+\usepackage{graphicx}
+ 
+\usepackage[T1]{fontenc}
+  
+\newcommand*{\titleRRITD}{\begingroup
+\centering 
+{\Huge \textbf{North South University}}\\[0.23\baselineskip] 
+{\large \textbf{Department of Electrical and Computer Engineering}}\\[0.40\baselineskip]
+\vspace{0.5cm}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{t_north-south-university1451.jpg}
+\end{figure}
+\vspace{0.2cm} 
+\centering % Center all 
+{\LARGE \textbf{Project Proposal}}\\[1.0\baselineskip]
+{\Large {\textbf{------------------------------------------------}}}\\[0.1\baselineskip] % Document title 
+{\Huge  {\textbf{"NSU parking lot Management System"}}}\\[0.75\baselineskip]  
+{\Large {\textbf{---------------------------------------------------------}}}\\[0.1\baselineskip]
+\vspace{0.15cm}
+{\large \textsc{Programming Language II Lab\\CS215L\\Section:12}}\par % Author(s) name(s)
+\endgroup
+\vspace{1.0cm}
+{\small Name: Ragib Kabir Moon ID:2131249642\\ Name: Tariqur Rahman Emon ID: 2122214642}\\ Name: Arafat Islam Dipta ID:2122149642\baselineskip 
+{\small\\-------------------------------\\} 
+  {\Small\ Course Faculty: Tim(Lecturer)\\Lab Instructor: Nazmul Alam Diptu}\\[0.5\baselineskip]
+{\Small\textbf{Submission Date : 25/07/2022}}\\[0.2\baselineskip] 
+\endgroup}
+
+ 
+\begin{document} 
+
+\pagenumbering{gobble}
+% Removes page numbers
+
+\titleRRITD % This command includes the title page
+
+\newpage
+
+\section*{introduction}
+
+Parking management system for managing the records of the incoming and outgoing vehicles in an parking house
+Now days in many public places such as malls, multiplex system, hospitals, offices, market areas there is a crucial problem of vehicle parking. 
+The objective of this project is to build a Vehicle Parking management system that enables the time management and control of vehicles using number plate recognition. 
+The system that will track the entry and exit of cars, maintain a listing of cars within the parking lot, and determine if the parking lot is full or not. 
+It will determine the cost of per vehicle according to their time consumption.
+
+
+
+\section{Objectives:-}
+1. We can park our vehicle in our own slot by paying.\\
+2. Their will be a schedule for every car parkings.\\
+3. A tracker will get the info about cars.\\
+4. Maintain records in short time of period.\\
+5. Determines the parking area is full or not.\\
+6. Enhances the visitor’s experience.\\
+
+\section{Modules:-}
+
+\section*{a)Data Records}\vspace{1.0cm}\\
+
+\section*{Staff records:-}\\
+
+ It helps to provide details of staff that uses the Vehicle parking management
+System. It provides the descriptions of staffs like:\vspace{1.0cm}\\
+ 
+-Staff first, middle and last name\\
+-Address \\
+-Contact Number \\
+-Gender\vspace{1.0cm}\\
+\section*{User Records:-} \vspace{1.0cm}\\
+
+This record helps for the authorization for using Vehicle Parking Management System. It Provides the Username and Password for the User (staff).It also includes the level of authority that means it separates the normal users and administrator.\vspace{1.0cm}\\
+
+\section*{Vehicle Records:-}\vspace{1.0cm}\\ 
+
+This most important record which focuses in our Vehicle Parking Management System. It stores the essential Vehicle records like:\\
+-Vehicle Number\\
+-Vehicle Type\\
+-Vehicle Entry Time\\
+-Vehicle Exit Time\vspace{1.0cm}\\
+
+\section*{b)Reports}\vspace{1.0cm}
+
+
+\section*{Vehicle Parking Detail:-} \vspace{1.0cm}
+
+
+This report is very essential in this system.\\ 
+This report provides a brief summary of vehicle activities. \\
+It shows the overall Entry and Exit time. \\
+It shows the User at time of Entry and Exit .\\
+It also provides the facility for examining the total vehicle details according to date wise.\vspace{1.0cm}\\
+
+\section*{Transaction Detail:-}\vspace{1.0cm}\\
+
+
+This report will show the Transaction between the customer and the System.\\
+It shows the cost of the vehicle after using the facility of parking.\\ 
+It will show the number of transaction by date wise.\\ 
+It will also have User at time of the Transaction.\\
+
+
+
+
+\end{document}
